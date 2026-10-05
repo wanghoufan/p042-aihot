@@ -1,3 +1,5 @@
+[English](./README.en.md)
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.png">
