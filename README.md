@@ -1,3 +1,5 @@
+# AIHOT 热点日报站
+
 [English](./README.en.md)
 
 <p align="center">
