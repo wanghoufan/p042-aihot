@@ -14,3 +14,34 @@ apps/web/.react-router/
 # Font package unpacked to regenerate the report nameplates (docs/customize.md)
 package/
 fontsource-noto-sans-sc-*.tgz
+
+# >>> ORCA 治理块 BEGIN（母版托管，勿手改） >>>
+# 本块由母版 scripts/orca-gitignore.sh 托管，请勿手改；要改请改 scripts/orca-public-ignore.txt 后重跑。
+/AGENTS.md
+/ORCA治理体系说明.md
+/USER_MODEL_OVERRIDE.md
+/GOVERNANCE_VERSION
+/归位表.template.md
+/编排者提示词.md
+/外部开发者提示词.md
+/Orca 编排治理监督者提示词.md
+/Orca 通用编排者持续推进协议.md
+/迁移整理提示词.md
+/agent.md
+/docs/roles/
+/docs/sop/
+/docs/templates/
+/docs/prompts/
+/docs/assets/orca-*.png
+/docs/model/TASK-MANAGER-QUALIFICATION.md
+/docs/pm/*.template.md
+/docs/plan/*.template.md
+/docs/qa/*.template.md
+/docs/review/*.template.md
+/docs/handoff/*.template.md
+/scripts/model/
+/scripts/decision/
+/scripts/orchestration/
+/scripts/detect-client.sh
+/scripts/check-channel-preflight.sh
+# <<< ORCA 治理块 END <<<
