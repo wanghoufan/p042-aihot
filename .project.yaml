@@ -2,11 +2,11 @@
 project_id: P042
 name_zh: AIHOT 热点日报站
 slug: aihot
-status: ing
+status: paused
 github: wanghoufan/p042-aihot
 visibility: public
 created_at: 2026-10-03T14:04:57+08:00
-local_path: /Users/zzymima0000/Developer/coding/1.Active/042-ing-AIHOT 热点日报站
+local_path: /Users/zzymima0000/Developer/coding/1.Active/042-paused-AIHOT 热点日报站
 default_branch: main
 repo_role: primary
 lifecycle: [ing, paused, done, archived]
