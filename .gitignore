@@ -14,7 +14,6 @@ apps/web/.react-router/
 # Font package unpacked to regenerate the report nameplates (docs/customize.md)
 package/
 fontsource-noto-sans-sc-*.tgz
-
 # >>> ORCA 治理块 BEGIN（母版托管，勿手改） >>>
 # 本块由母版 scripts/orca-gitignore.sh 托管，请勿手改；要改请改 scripts/orca-public-ignore.txt 后重跑。
 /AGENTS.md
@@ -45,3 +44,45 @@ fontsource-noto-sans-sc-*.tgz
 /scripts/detect-client.sh
 /scripts/check-channel-preflight.sh
 # <<< ORCA 治理块 END <<<
+
+# 治理铺包残留（母版副本，不入库）
+*.旧版-*
+scripts/orca-public-ignore.txt
+scripts/orca-public-guard.sh
+scripts/orca-gitignore.sh
+scripts/restore-framework.sh
+scripts/install-governance-hooks.sh
+scripts/pre-commit-guard.sh
+scripts/check-dispatch-output.sh
+scripts/check-product-review.sh
+scripts/codebuddy-auto.sh
+scripts/migration-status.sh
+scripts/detect-client.sh
+scripts/_cb-*.py
+scripts/_inject-agents-block.py
+docs/roles/
+docs/sop/
+docs/model/
+docs/pm/
+docs/qa/
+
+# 治理铺包残留（母版副本·补充）
+GOVERNANCE_VERSION
+ORCA治理体系说明.md
+Orca *.md
+外部开发者提示词.md
+编排者提示词.md
+USER_MODEL_OVERRIDE.md
+归位表.template.md
+README 2.md
+docs/prompts/
+docs/templates/
+docs/handoff/EXT-WORKLOG.template.md
+scripts/model/
+Scripts/model/
+scripts/decision/
+scripts/orchestration/
+scripts/check-channel-preflight.sh
+Scripts/check-channel-preflight.sh
+# macOS 外置盘产生的 AppleDouble 元数据
+._*
